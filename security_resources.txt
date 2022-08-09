@@ -1,14 +1,17 @@
 I WANT TO DO SECURITY BUT DON'T KNOW WHERE TO START:
+  https://danielmiessler.com/blog/build-successful-infosec-career/
   According to the NSA, "entry level" for security positions means one of:
     Bachelor's degree + 3 YOE
     Master's degree + 1 YOE
     Doctoral degree + 0 YOE
     Associate degree + 5 years in-depth experience directly related to the position
+    TRANSLATION: ENTRY LEVEL POSITIONS DO NOT EXIST
   BUG BOUNTY PROGRAMS are an effective way to perform legal security research and get some money for your time:
     BugCrowd
     HackerOne
     Syn/Ack
     Beware of any programs with no or very low $$$ awards. Your time is valuable.
+    Beware of scope violations: this can risk legal threats if the organization is hostile.
   Capture The Flag
     https://ctf101.org
     https://picoctf.org
@@ -29,19 +32,32 @@ Sources of articles for learning:
     2022 writeups: https://groups.google.com/g/google-ctf/c/BQG1LP8vuZ4?pli=1
   Google Project Zero: https://googleprojectzero.blogspot.com
 
-Sources of presentations to learn:
+Sources of presentations to learn (mostly conferences):
   DEFCON presentations
     https://media.defcon.org/ THIRTY YEARS OF DEFCON PRESENTATIONS
     https://www.youtube.com/user/DEFCONConference/videos
   Blackhat presentations before 2018ish
+  DerbyCon
+  ShmooCon
+  ThotCon
 
-Trainings:
-  Offensive Security certifications (offensive-security.com)
-  SANS institute
+Trainings and Certifications:
+  Beginner:
+    A+
+    Network+
+    Linux+
+    Security+
+  Advanced
+    CISSP
+    Offensive Security certifications (offensive-security.com, pentest)
+    CISA/CISM (management focused)
+    SANS (GSEC/GPEN/GWAPT especially, technical)
+    CREST (pentest)
 
 Doc sources related to security:
   https://signal.org/docs/ - includes threat models for the Signal protocol. This is mostly maths.
   https://pages.nist.gov/800-63-3/ - Federal identity guidelines for learning how to think about identity
+  https://github.com/cure53/Contracts - Code53 contract templates for pentest engagement
 
 Experts with opinions:
   Daniel J Bernstein, Cryptography
