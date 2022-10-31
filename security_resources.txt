@@ -42,6 +42,7 @@ Sources of presentations to learn (mostly conferences):
   ThotCon
 
 Trainings and Certifications:
+  https://github.com/ossu/computer-science - Open Source Society University
   Beginner:
     A+
     Network+
@@ -58,6 +59,7 @@ Doc sources related to security:
   https://signal.org/docs/ - includes threat models for the Signal protocol. This is mostly maths.
   https://pages.nist.gov/800-63-3/ - Federal identity guidelines for learning how to think about identity
   https://github.com/cure53/Contracts - Code53 contract templates for pentest engagement
+  https://downloads.digitalcorpora.org/corpora/scenarios/magnet/ - Digital Forensics Incident Response CTFs
 
 Experts with opinions:
   Daniel J Bernstein, Cryptography
@@ -78,3 +80,19 @@ Experts with opinions:
   Mathy Vanhoef, Prof of CSc @ KU Leuven
   Kim Zetter, Journalist, National Security
   Brian Krebs, Journalist, primarily financial fraud @ DDOS groups
+  Tim Willis, Head of Google Project Zero
+
+Tools:
+  Ghidra - Free, open source decompiler
+  IDA Free - Free, closed source decompiler, x86/x64 only
+  IDA Pro - Not free, but way better
+  binary.ninja - https://binary.ninja, Non-free decompiler, massively better UX than IDA, very powerful
+  Cheat Engine - real time memory editor for the lazy
+  x64dbg - open source windows debugger, notable for good Scylla interface for dumping process memory
+  Process Monitor - see what processes are actually doing
+  pestudio - PE header inspector
+
+Enterprise Tools:
+  OSQuery - Agent-based system state querying, mostly for infra blue teaming / incident response
+  Permiso.io - SIEM, specializes in correlation of event data between cloud services
+  Splunk - Observability. Often used as or part of SIEM.
